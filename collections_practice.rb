@@ -33,4 +33,8 @@ def find_a(array)
   array.select do |a|
     a[0] == "a"
   end
-end 
+end
+
+def sum_array
+  array.inject (:+)
+end
