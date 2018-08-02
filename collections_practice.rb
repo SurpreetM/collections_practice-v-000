@@ -28,3 +28,9 @@ def kesha_maker(array)
     a[2] = "$"
   end
 end
+
+def find_a(array)
+  array.select do |a|
+    a[0] == "a"
+  end
+end 
