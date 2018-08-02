@@ -40,3 +40,12 @@ def sum_array(array)
     sum + n
   end 
 end
+
+def add_s(array)
+  array.collect do |a|
+    if array[1] == a
+      a
+    else a + "s"
+  end 
+
+end 
