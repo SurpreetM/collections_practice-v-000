@@ -38,7 +38,7 @@ end
 def sum_array(array)
   array.inject do |sum,n|
     sum + n
-  end 
+  end
 end
 
 def add_s(array)
@@ -46,6 +46,6 @@ def add_s(array)
     if array[1] == a
       a
     else a + "s"
-  end 
-
-end 
+    end
+  end
+end
